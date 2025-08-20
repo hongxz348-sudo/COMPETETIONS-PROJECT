@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Koulen&family=Moul&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 #main-body{
-    background-color:oklch(79.2% 0.209 151.711);
+    background-color:oklch(65.5% 0.115 274.713);
 }   
 .container{
     background-color:rgb(22, 100, 177);
@@ -92,9 +92,8 @@ section a h2{
 main{
     display: flex;
 }
-
 .MenuLeft{
-    width: 20%;
+    width:10%;
 }
 .aboutUniversity{
     width: 100%;
@@ -105,14 +104,15 @@ main{
 .aboutUniversity a{
     color: #ffc107; 
     text-decoration: none;
-    font-size: 1.3rem;
-    font-family: 'Hanuman'
+    font-size: 1rem;
+    font-family: 'moul'
 }
 .Sub-aboutUniversity{
     background-color: #21ade3;
     width: 100%;
-    padding: .6rem 2rem;
+    padding: .6rem 1rem;
     border-bottom: 1px solid rgba(96, 94, 94, 0.333);
+    cursor: pointer;
 }
 .Sub-aboutUniversity a{
     color: #ffc107; 
@@ -132,23 +132,24 @@ main{
 }
 
 
-
+/* University-Facuty-Styles */
 .University-Facuty{
     background-color: #21ade3;
+    cursor: pointer;
 }
 .University-Facuty .Each-Facuty:nth-child(1) a,.Each-Facuty:nth-child(2) a,.Each-Facuty:nth-child(3) a,.Each-Facuty:nth-child(4) a,.Each-Facuty:nth-child(5) a,
 .Each-Facuty:nth-child(6) a,.Each-Facuty:nth-child(7) a,.Each-Facuty:nth-child(9) a,.Each-Facuty:nth-child(10) a,
 .Each-Facuty:nth-child(10) a,.Each-Facuty:nth-child(11) a,.Each-Facuty:nth-child(12) a,.Each-Facuty:nth-child(13) a{
-    font-size: .9rem;
+    font-size: 1rem;
     text-decoration: none;
     color:white;
     font-family: 'moul' ;
-    text-shadow: 2px 2px 2px #21ade3
+    text-shadow: 2px 2px 2px #21ade3;
 }
 .Each-Facuty:nth-child(8) a{
-    font-size: .6rem;
+    font-size: .8rem;
     text-decoration: none;
-    color:white;
+    color:white;    
     font-family: 'moul' ;
     text-shadow: 2px 2px 2px #21ade3
 }
@@ -163,8 +164,9 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
+    padding-left: 1rem;
 }
 .University-Facuty .Each-Facuty:nth-child(2){
     background-color: #8E2F39;
@@ -172,8 +174,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(3){
     background-color: #006F87;
@@ -181,8 +183,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 1rem;
 }
 .University-Facuty .Each-Facuty:nth-child(4){
     background-color: #4156A3;
@@ -190,8 +192,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(5){
     background-color: #0d6efd;
@@ -199,8 +201,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(6){
     background-color: #20c997;
@@ -208,8 +210,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(7){
     background-color: #C1AA3F;
@@ -217,8 +219,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(8){
     background-color: #8F61A7;
@@ -226,8 +228,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(9){
     background-color: #EE8A36 ;
@@ -235,8 +237,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(10){
     background-color: #F3868C;
@@ -244,8 +246,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(11){
     background-color: #55545E ;
@@ -253,8 +255,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(12){
     background-color: #42B7DA ;
@@ -262,8 +264,8 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1rem;
+    align-items:center;
 }
 .University-Facuty .Each-Facuty:nth-child(13){
     background-color: #FDB515 ;
@@ -271,16 +273,178 @@ main{
     border: #ffc107 2px solid;
     height: 3.5rem;
     display: flex;
+    padding-left: 1rem;
+    align-items:center;
+}
+
+
+ /* Recognition Style  */
+ .Recognitions-container{
+    background-color: #21ade3;
+ }
+.MenuLeft-group .Recognitions-container .R-1{
+    width: 100%;
+    background-color: #21ade3;
+    text-decoration: none;
+    height: 5rem;
+    display: grid;
+    place-content: center;
+    font-family: 'Hanuman';
+    border-radius: 16px;
+    border-color: #E23439 !important;
+    border:inset 3px;
+}
+.MenuLeft-group .Recognitions-container .R-1 a img{
+    width: 5rem;
+}
+.MenuLeft-group .Recognitions-container .R-1  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.MenuLeft-group .Recognitions-container .R-2  a img{
+    width: 5rem;
+}
+.MenuLeft-group .Recognitions-container .R-2{
+    width: 100%;
+    background-color: #21ade3;
+    text-decoration: none;
+    height: 5rem;
+    display: grid;
+    place-content: center;
+    font-family: 'Hanuman';
+    border-radius: 16px;
+    border-color: #E23439 !important;
+    border:inset 3px;
+}
+.MenuLeft-group .Recognitions-container .R-2  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+
+   /* Graduate Style */
+   .Graduate-container{
+    width: 100%;
+    background-color: #21ade3;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+    flex-direction: column;
+    padding:1rem 0rem;
+    gap: .3rem;
+   }
+   #Graduate-container{
+    width: 90%;
+    border: outset 3px;
+    border-color: #dc3545 !important;
+    border-radius: .30rem;
+   }
+   #Graduate-container a{
+    display:flex;
+    text-decoration: none;
+   }
+   #Gratuate-img img{
+    width: 110%;
+    height: 5rem;
+    padding: 0rem  1rem;
+    border-right: 2px solid #dc3545;
+    object-fit: contain;
+    }
+   #Gratuate-title {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Koulen';
+    color:white;
+    font-size: 1rem;
+    padding: 0 .5rem;
+   }
+
+
+   /* Add More on Speaking competaions Style */
+   #Each-Facuty, #Englsih-Speaking{
+    border-color: #EE8A36 !important;
+    border: inset 3px;
+    display:grid;
+    place-content: center;
+    background-color: #E23439;
+    border-radius: 16px;
+    border: #ffc107 2px solid;
+    height: 3.5rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items:center;
+    padding-left: 1rem;
+   }
+   #Englsih-Speaking{
+    background-color: #4156A3;
+   }
+    #Each-Facuty a,#Englsih-Speaking a{
+    font-family: 'Hanuman';
+    text-shadow: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    }
+   /* Speaking Styles */
+   #University-Facuty{
+    background-color: #21ade3;
+    cursor: pointer;
+    }
+   
+  .Speaking-conatiner{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin-top:.5rem;
+    transition: .7s;
+  }
+    .Speaking-conatiner:hover{
+     transform:scale(.97);
+    }
+   .Speaking-conatiner a{
+    text-decoration: none;
+   }
+   #Speaking-conatiner{
+    width: 95%;
+    height: 11rem;
+    position: relative;
+   }
+   #Speaking-conatiner #img-1{
+    width: 16rem;
+    height: 9rem;
+    border-radius: 3px;
+   }
+   #Speaking-conatiner #img-2{
+    width: 3rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   #Speaking-conatiner h3{
+    font-family: 'Hanuman';
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4156A3 ;
+    margin-bottom: .1rem;
+   }
 
 /*End Left menuBar in main */
 
 /*start middle menuBar in main */
 .SliceShow{
-    width: 60%;
+    width: 70% !important;
     text-align: center;
+}
+.SliceShow a{
+    text-decoration: none;
 }
 .BICCLogo-Group{
     margin: 1rem;
@@ -290,23 +454,18 @@ main{
 }
 .BICCLogo-Group img:nth-child(2){
     vertical-align: top;
-    margin-left: 1.5rem;
+    margin-left: 1.2rem;
     width: 14rem;
 }
-.Vacation-information img:nth-child(1){
-    width: 80%;
+.Vacation-information img{
+    width: 90%;
     border-radius: 5px;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
-}
-.Vacation-information img:nth-child(2){
-    border-radius: 5px;
-    width: 80%;
-    margin-top: .5rem;
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
+    margin-top: .7rem;
 }
 /*End middle menuBar in main */
 
-/*start Right menuBar in main */
+/*start  Right menuBar-part-1  in Main-right-menubar */
 #Main-right-menubar{
     width: 20%;
 }
@@ -351,11 +510,17 @@ main{
 .Change-languages-Flags div img:hover + .CountryName {
     color: #4156A3;
 }
+/*End Right menuBar-part-1  in Main-right-menubar */
 
+
+/* Start Sign go to left style */
 #Goto-page img{
     width: 16rem;
 }
+/*End Sign go to left style */
 
+
+/* Start Complecated-Box style */
 .Complicated-box{
     width: 16rem;
     height: 4rem;
@@ -364,14 +529,18 @@ main{
     border-radius: 32px;
     display: grid;
     place-items:center;
-    border: 4px solid gold;
-    border: outset 3px !important;
+    border-color:gold !important;
+    border: outset 3px ;
 }
 .Complicated-box h2{
     font-family: 'moul';
     color:rgb(224, 224, 7);
     font-size: 1.2rem;
 }
+
+/* end Complecated-Box style */
+
+/*start Right menuBar-part-2  in Main-right-menubar */
 .Sub-right-menu{
     background-color:#21ade3;
     padding:1rem;
@@ -380,16 +549,19 @@ main{
 }
 .Sponsor-Sections{
     align-items: center;
-    border-color: #006cb8 ;
     border: inset 5px;
+    border-radius: 20px;
+    border-color: #4156A3 !important ;
 }
 .Sponsor-Sections div:nth-child(1){
     text-align: center ;
     background-color: #198754;
     padding: 1rem;
+    border-radius: 15px 15px 0px 0px ;
 }
 .Sponsor-Sections div:nth-child(1) img{
-    width: 5rem;
+    width: 9rem;
+    height: 4rem;
 }
 .Sponsor-Sections div:nth-child(1) h2{
     font-family: 'moul';
@@ -397,92 +569,33 @@ main{
     font-size: 1rem;
     margin-top: .3rem;
 }
-.Sponsor-Sections div:nth-child(2){
+#Sponsor-Sections:hover{
+    transform:scale(1);
+    background-color: #198754;
+}
+#Sponsor-Sections:hover img{
+    transform:scale(1);
+    background-color: #198754;
+}
+.Sponsor-Sections div{
     text-align:center;
     border-bottom: 1px solid gray;
     padding: .3rem 1rem;
 }
-.Sponsor-Sections div:nth-child(2) img{
-    width: 11rem;
-    object-fit: cover;
+
+.Sponsor-Sections div:last-of-type {
+    border-bottom: none;
+}
+.Sponsor-Sections div img{
+    width: 100%;
+    height: 6rem;
+    object-fit: contain;
     transition: .4s;
 }
-.Sponsor-Sections div:nth-child(2) img:hover{
+.Sponsor-Sections div:hover{
+    background-color: #00c8ffa2;
+}
+.Sponsor-Sections div img:hover{
     transform:scale(0.9);
 }
-.Sponsor-Sections div:nth-child(2):hover{
-    background-color: #062f4d3b;
-}
-.Sponsor-Sections div:nth-child(3){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1rem 1rem;
-}
-.Sponsor-Sections div:nth-child(3) img{
-    width: 11rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(4){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1rem 1rem;
-}
-.Sponsor-Sections div:nth-child(4) img{
-    width: 11rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(5){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1rem 1rem;
-}
-.Sponsor-Sections div:nth-child(5) img{
-    width: 6rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(6){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 2rem 1rem;
-}
-.Sponsor-Sections div:nth-child(6) img{
-    width: 11rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(7){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1rem 1rem;
-}
-.Sponsor-Sections div:nth-child(7) img{
-    width: 6rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(8){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1.3rem 1rem;
-}
-.Sponsor-Sections div:nth-child(8) img{
-    width: 11rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(9){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1.3rem 1rem;
-}
-.Sponsor-Sections div:nth-child(9) img{
-    width: 11rem;
-    object-fit: cover;
-}
-.Sponsor-Sections div:nth-child(10){
-    text-align:center;
-    border-bottom: 1px solid gray;
-    padding: 1.3rem 1rem;
-}
-.Sponsor-Sections div:nth-child(10) img{
-    width: 6rem;
-    object-fit: cover;
-}
-
+/*End  Right menuBar-part-1  in Main-right-menubar */
