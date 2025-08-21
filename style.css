@@ -48,7 +48,6 @@ section{
     padding: 1rem .5rem;
     display: flex;
     gap:1rem;
-    padding-bottom: 2rem;
     border-bottom: 1px solid rgba(128, 128, 128, 0.148);
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
 }
@@ -436,12 +435,83 @@ main{
     margin-bottom: .1rem;
    }
 
+   .MouMeeting-Container #MouMeeting-Container{
+    width: 100%;
+    border: 1px solid #55545e5a;
+    padding:1rem 0;
+    border-radius: .3rem .3rem 0 0;
+   }
+   .MouMeeting-Container #MouMeeting-Container img{
+    width: 95%;
+    border-radius: .3rem;
+    transition: .4s;
+   }
+    .MouMeeting-Container #MouMeeting-Container h4{
+        font-family:'Times New Roman', Times, serif ,"moul";
+        color: #343a40;;
+        font-size: .88rem;
+        margin-top: 1rem;
+        line-height: 1.5rem;
+         transition: color .4s;
+    }
+    .MouMeeting-Container #MouMeeting-Container:hover img{
+        transform: scale(.98);
+    }
+    .MouMeeting-Container #MouMeeting-Container:hover h4{
+        color: #006cb8;
+    }
+    
+    
+    .Contents{
+        width: 100%;
+        border: 1px solid #55545e5a;
+    }
+    .Contents #Contents{
+        display: flex;
+        padding: .5rem 1rem;
+    }
+    .Contents #Contents img{
+        width:30%;
+        object-fit: contain;
+        border-radius: .2rem;
+        transition: .4s;
+    }
+    .Contents #Contents div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1.5rem ;
+    }
+    .Contents a #Contents div p{
+        font-size: 1rem;
+        font-family: 'Hanuman';
+        line-height: 1.4rem;
+        color: #343a40;
+    }
+    .Contents a #Contents div h6{
+        font-size: 1rem;
+        color: red;
+        font-family: 'Hanuman';
+    }
+    .Contents a #Contents:hover img{
+        transform:scale(.97);
+    }
+    .Contents a  #Contents:hover p{
+        color: #0d6efd ;
+    }
+
+    
 /*End Left menuBar in main */
 
 /*start middle menuBar in main */
 .SliceShow{
-    width: 70% !important;
+    width: 70%;
     text-align: center;
+    padding: 1rem;
+    box-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
+    margin:0 1rem ;
 }
 .SliceShow a{
     text-decoration: none;
@@ -462,6 +532,28 @@ main{
     border-radius: 5px;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
     margin-top: .7rem;
+}
+
+.Celebrating-container{
+    margin: 1rem 0;
+    border-top:1px solid #55545e66;
+    border-bottom:1px solid #55545e66;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#Celebrating-container{
+    width: 100%;
+    background-color: #198754;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: .5rem 0 ;
+    font-size: 1rem;
+    font-family: 'moul';
+    color: white;
+    border-radius: .2rem;
 }
 /*End middle menuBar in main */
 
@@ -599,3 +691,87 @@ main{
     transform:scale(0.9);
 }
 /*End  Right menuBar-part-1  in Main-right-menubar */
+
+/* Anchor go to the Top */
+#Anchor-btn{
+    outline: none;
+    border: none;
+    position: fixed;
+    bottom: 2rem;
+    right:1.5rem;
+    padding: .9rem 1rem ;
+    border-radius: 50%;
+    background-color: #0dcaf0;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transition: .3s;
+}
+#Anchor-btn:hover{
+    transform: scale(.90);
+}
+
+@media (max-width: 600px) {
+    #main-body {
+        background-color: #006F87;
+    }
+
+    /* header Phone-Screen */
+    .container header .Beltei-Logo img{
+        width: 4rem;
+    }
+    .container header .Beltei-Name{
+        padding:0 .9rem;
+        line-height:1rem;
+    }
+    .container header .Beltei-Name h1:nth-child(1){
+        font-size: 1rem;
+        line-height:.6rem;
+    }
+    .container header .Beltei-Name h1:nth-child(2){
+        font-size: .87rem;
+        line-height:.6rem;
+    }
+    .container header .Beltei-Name #Slogan-section{
+        font-size: .7rem;
+    }
+    /*End header Phone-Screen */
+
+    /* Four Beltei Campus  */
+    #mainContainer section{
+        gap: .3rem;
+        padding:.5rem .3rem;
+    }
+    #mainContainer section .universityCampus{
+        width: 25%;
+    }
+    #mainContainer section .universityCampus a img{
+        width: 100%;
+    }
+    #mainContainer section .universityCampus a h2{
+        font-size: .4rem;
+        word-spacing: 0;
+        padding-top: .5rem;
+    }
+    /*End Four Beltei Campus  */
+    
+    /* Information-fadeLeft */
+    #mainContainer .Information-fadeLeft{
+        padding:.4rem 0;
+    }
+    #mainContainer .Information-fadeLeft .scrolling {
+        font-size: .5rem
+    }
+    /* End Information-fadeLeft */
+
+
+
+
+
+    #mainContainer{
+        display: ;
+    }
+    #mainContainer main{
+        display: none;
+    }
+}
