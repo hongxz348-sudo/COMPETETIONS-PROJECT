@@ -91,8 +91,8 @@ section a h2{
 main{
     display: flex;
 }
-.MenuLeft{
-    width:10%;
+.MenuLeft-group{
+    width:25%;
 }
 .aboutUniversity{
     width: 100%;
@@ -139,14 +139,14 @@ main{
 .University-Facuty .Each-Facuty:nth-child(1) a,.Each-Facuty:nth-child(2) a,.Each-Facuty:nth-child(3) a,.Each-Facuty:nth-child(4) a,.Each-Facuty:nth-child(5) a,
 .Each-Facuty:nth-child(6) a,.Each-Facuty:nth-child(7) a,.Each-Facuty:nth-child(9) a,.Each-Facuty:nth-child(10) a,
 .Each-Facuty:nth-child(10) a,.Each-Facuty:nth-child(11) a,.Each-Facuty:nth-child(12) a,.Each-Facuty:nth-child(13) a{
-    font-size: 1rem;
+    font-size: .9rem;
     text-decoration: none;
     color:white;
     font-family: 'moul' ;
     text-shadow: 2px 2px 2px #21ade3;
 }
 .Each-Facuty:nth-child(8) a{
-    font-size: .8rem;
+    font-size: .7rem;
     text-decoration: none;
     color:white;    
     font-family: 'moul' ;
@@ -323,7 +323,9 @@ main{
     display: flex;
 }
 
-
+  #Asign-Name a{
+    font-size: .9rem;
+  }
    /* Graduate Style */
    .Graduate-container{
     width: 100%;
@@ -404,7 +406,7 @@ main{
     transition: .7s;
   }
     .Speaking-conatiner:hover{
-     transform:scale(.97);
+    transform:scale(.97);
     }
    .Speaking-conatiner a{
     text-decoration: none;
@@ -525,10 +527,10 @@ main{
 .BICCLogo-Group img:nth-child(2){
     vertical-align: top;
     margin-left: 1.2rem;
-    width: 14rem;
+    width: 15rem;
 }
 .Vacation-information img{
-    width: 90%;
+    width: 95%;
     border-radius: 5px;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
     margin-top: .7rem;
@@ -559,7 +561,7 @@ main{
 
 /*start  Right menuBar-part-1  in Main-right-menubar */
 #Main-right-menubar{
-    width: 20%;
+    width: 25%;
 }
 .right-menu{
     width: 100%;
@@ -715,10 +717,13 @@ main{
     #main-body {
         background-color: #006F87;
     }
-
     /* header Phone-Screen */
+    .container header{
+        height: 7rem;
+        padding: .5rem 0;
+    }
     .container header .Beltei-Logo img{
-        width: 4rem;
+        width: 3.5rem;
     }
     .container header .Beltei-Name{
         padding:0 .9rem;
@@ -763,15 +768,274 @@ main{
         font-size: .5rem
     }
     /* End Information-fadeLeft */
+    
+    /* Left-Menu-bar */
 
-
-
-
-
-    #mainContainer{
-        display: ;
+     /* about University */
+    .MenuLeft-group{
+        width: 25%;
     }
-    #mainContainer main{
-        display: none;
+    .MenuLeft-group .aboutUniversity{
+        height: 2rem;
+        padding: 0;
+        vertical-align: middle;
     }
+    .MenuLeft-group .aboutUniversity a{
+       font-size: .45rem;
+    }
+    .MenuLeft-group .Sub-aboutUniversity{
+        padding:0;
+        height: 1.4rem;
+        display: flex;
+        align-items: center;
+    }
+    .MenuLeft-group .Sub-aboutUniversity a{
+        font-size: .40rem;
+        margin-left: .4rem;
+    }
+     
+    /* End about University */
+
+    /* Each Facuty of University */
+    .MenuLeft-group .University-Facuty .Each-Facuty{
+        padding: 0;
+        height: 1.8rem;
+        border: 1px solid #14f1baf8;
+    }
+    .MenuLeft-group .University-Facuty .Each-Facuty a {
+        font-size: .35rem;
+        margin-left: .4rem;
+        text-shadow: none;
+    }
+    .MenuLeft-group .University-Facuty .Each-Facuty:nth-child(8) a {
+        font-size: .28rem;
+        margin-left: .4rem;
+    }
+    /* End Each Facuty of University */
+
+
+    /* Recognitions  */
+    #Recognitions-title {
+        font-size: .3rem;
+    }
+    .MenuLeft-group .Recognitions-container .R-1{
+        height: 2rem;
+    }
+    .MenuLeft-group .Recognitions-container .R-1 a img{
+        width: 1.8rem;
+    }
+    .MenuLeft-group .Recognitions-container .R-1 a{
+        font-size: .45rem;
+    }
+     .MenuLeft-group .Recognitions-container .R-2{
+        height: 2rem;
+    }
+    .MenuLeft-group .Recognitions-container .R-2 a img{
+        width: 1.8rem;
+    }
+    .MenuLeft-group .Recognitions-container .R-2 a{
+        font-size: .45rem;
+    }
+    #Asign-Name a{
+        font-size: .35rem;
+    }
+     /* End Recognitions  */
+    
+    /* Gradiuate  */
+    .Graduate-container{
+        padding: .3rem 0;
+    }
+    .Graduate-container #Graduate-container a #Gratuate-title{
+        font-size: .27rem;
+    }
+    .Graduate-container #Graduate-container a #Gratuate-img img{
+        height: 2rem;
+    }
+    /* End Gradiuate  */
+
+    /* Public Speaking Khmer */
+    #University-Facuty #Each-Facuty,#Englsih-Speaking{
+        padding: 0;
+        height: 2rem;
+     }
+    #University-Facuty #Each-Facuty a,#Englsih-Speaking a{
+        font-size: .4rem;
+    }
+
+
+    .Speaking-conatiner a #Speaking-conatiner{
+        width: 100%;
+        height: auto;
+        padding: .3rem 0;
+    }
+    .Speaking-conatiner a #Speaking-conatiner h3{
+        font-size: .5rem;
+    }
+    .Speaking-conatiner a #Speaking-conatiner #img-1 {
+        width:100%;
+        height: 3rem;
+    }
+    .Speaking-conatiner a #Speaking-conatiner #img-2 {
+        width:1rem;
+    }
+    
+
+
+    /* Relation  Partners */
+    .Sub-right-menu{
+        border-radius: none;
+        padding: .5rem;
+    }
+    .Sub-right-menu .Sponsor-Sections #Sponsor-Sections{
+        height:auto;
+        padding:.3rem 0;
+     }
+    .Sub-right-menu .Sponsor-Sections #Sponsor-Sections img{
+        width: 2rem;
+        height: 1rem;
+    }
+    .Sub-right-menu .Sponsor-Sections #Sponsor-Sections h2{
+        font-size: .3rem;
+    }
+    .Sub-right-menu .Sponsor-Sections img{
+        height: 2rem;
+    }
+     
+
+      /*End  Relation  Partners */
+
+
+      /* Slice Show Part */
+      .SliceShow{
+        width: 45%;
+        padding: .2rem;
+        margin: 0 .2rem;
+      }
+      .SliceShow .BICCLogo-Group{
+        margin:.3rem 0;
+      }
+      .SliceShow .BICCLogo-Group img{
+        width: 4rem;
+        margin: 0;
+      }
+      .SliceShow #Icons a img{
+        width: 5rem;
+      }
+      #Animations{
+        width: 10rem;
+      }
+      .Vacation-information img{
+        margin: .2rem 0;
+      }
+
+      .Celebrating-container #Celebrating-container{
+        font-size: .6rem;
+        
+      }
+      .MouMeeting-Container a #MouMeeting-Container{
+        padding:.5rem 0;
+      }
+      .MouMeeting-Container a #MouMeeting-Container img{
+        height:6rem;
+      }
+      .MouMeeting-Container a #MouMeeting-Container h4{
+        font-size: .4rem;
+        line-height: .6rem;
+        margin-top:.2rem;
+        margin-bottom: 0;
+      }
+
+
+      .Contents{
+        height: 4rem;
+      }
+      .Contents a #Contents{
+        padding: .2rem;
+        height:100%;
+      }
+      .Contents a #Contents div{
+        padding: 0 .3rem;
+      }
+      .Contents a #Contents div p{
+        font-size: .4rem;
+        line-height: .5rem;
+        margin: 0;
+      }
+       .Contents a #Contents img{
+        font-size: .3rem;
+       }
+       .Contents a #Contents div h6{
+        font-size: .3rem;
+        margin-top: .2rem;
+       }
+     
+       /*End Slice Show Part */
+      
+       /* Start Right Menu Bar */
+       #Main-right-menubar{
+        width: 25%;
+       }
+        #Main-right-menubar .right-menu .Languages{
+            padding: 0;
+            height: 2rem;
+        }
+       #Main-right-menubar .right-menu .Languages a{
+        font-size: .7rem;
+        }
+
+
+        #Main-right-menubar .right-menu .Change-languages-Flags{
+            gap: 0;
+            padding: 0 .3rem;
+        }
+        #Main-right-menubar .right-menu .Change-languages-Flags div{
+            height: 3rem;
+            padding: 0;
+
+        }
+        #Main-right-menubar .right-menu .Change-languages-Flags div img{
+           height: 1rem;
+           width: 1.2rem;
+           margin-bottom:-1.5rem;
+        }
+         #Main-right-menubar .right-menu .Change-languages-Flags div .CountryName{
+            font-size: .5rem;
+      
+        }
+
+        #Goto-page img{
+            width:100%;
+        }
+
+
+        .Complicated-box{
+            width: 100%;
+            height: 2rem;
+            padding: 0;
+        }
+        .Complicated-box h2{
+            font-size: .6rem;
+            margin: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+     #mainContainer main #Main-right-menubar{
+        display: noe;
+     }
+
+
+
+
+
 }
