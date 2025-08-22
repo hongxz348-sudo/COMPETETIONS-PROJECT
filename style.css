@@ -851,6 +851,20 @@ main{
     
     /* Gradiuate  */
     .Graduate-container{
+        padding: .2rem 0rem;
+    }
+    .Graduate-container a{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Graduate-container #Graduate-container a #Gratuate-title{
+        font-size: .27rem;
+    }
+    .Graduate-container #Graduate-container a #Gratuate-img img{
+        height: 2rem;
+        padding: 0 .5rem;
+    }
+    /* .Graduate-container{
         padding: .3rem 0;
     }
     .Graduate-container #Graduate-container a #Gratuate-title{
@@ -858,7 +872,7 @@ main{
     }
     .Graduate-container #Graduate-container a #Gratuate-img img{
         height: 2rem;
-    }
+    } */
     /* End Gradiuate  */
 
     /* Public Speaking Khmer */
@@ -935,9 +949,13 @@ main{
       .Vacation-information img{
         margin: .2rem 0;
       }
-
+       .Celebrating-container{
+        margin: .3rem 0;
+       }
       .Celebrating-container #Celebrating-container{
-        font-size: .6rem;
+        height: .3rem;
+         margin: .3rem 0;
+        font-size: .5rem;
       }
       .MouMeeting-Container a #MouMeeting-Container{
         padding:.5rem 0;
