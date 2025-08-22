@@ -938,13 +938,12 @@ main{
 
       .Celebrating-container #Celebrating-container{
         font-size: .6rem;
-        
       }
       .MouMeeting-Container a #MouMeeting-Container{
         padding:.5rem 0;
       }
       .MouMeeting-Container a #MouMeeting-Container img{
-        height:6rem;
+        height:auto;
       }
       .MouMeeting-Container a #MouMeeting-Container h4{
         font-size: .4rem;
