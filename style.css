@@ -60,6 +60,8 @@ section a{
 }
 section a img{
     width: 19rem;
+    transition: .3s;
+    position: relative;
 }
 section a h2{
     word-spacing: .1rem;
@@ -67,6 +69,12 @@ section a h2{
     text-align: center;
     padding-top:1rem;
     color:rgb(65, 86, 163);
+}
+.universityCampus a:hover img{
+    transform: scale(.95);
+}
+.universityCampus a:hover h2{
+    color:rgba(22, 185, 197, 0.664);
 }
 /* end section */
 
@@ -954,7 +962,7 @@ main{
         height:100%;
       }
       .Contents a #Contents div{
-        padding: 0 .3rem;
+        padding: 0 .3rem; 
       }
       .Contents a #Contents div p{
         font-size: .4rem;
