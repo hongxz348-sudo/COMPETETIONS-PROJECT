@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Koulen&family=Moul&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 #main-body{
-    background-color:oklch(65.5% 0.115 274.713);
+    background-color:oklch(51.802% 0.06706 276.518);
 }   
 .container{
-    background-color:rgb(22, 100, 177);
+    background-color:#006cb8;
 }
 #mainContainer{
     background-color: white;
@@ -100,7 +100,7 @@ main{
     display: flex;
 }
 .MenuLeft-group{
-    width:25%;
+    width:20%;
 }
 .aboutUniversity{
     width: 100%;
@@ -517,7 +517,7 @@ main{
 
 /*start middle menuBar in main */
 .SliceShow{
-    width: 70%;
+    width: 58%;
     text-align: center;
     padding: 1rem;
     box-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) ;
@@ -565,11 +565,142 @@ main{
     color: white;
     border-radius: .2rem;
 }
+
+
+.School-information{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(57, 55, 55, 0.226);
+    cursor: pointer;
+}
+#School-information-wrapper{
+    width: 50%;
+    display: flex;
+    padding:0  .5rem;
+}
+.School-information #School-information-wrapper div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid rgba(57, 55, 55, 0.226);
+    row-gap: .5rem;
+}
+.School-information #School-information-wrapper div p{
+    font-size: .8rem;
+    font-family: 'Hanuman';
+    margin: 0;
+}
+.School-information #School-information-wrapper div h4{
+    font-size: .8rem;
+    font-family: 'Hanuman';
+    color:red;
+    margin:0;
+}
+.School-information #School-information-wrapper img{
+    width:50%;
+    height: 7rem ;
+    object-fit:cover;
+    margin: .6rem 0;
+    border-radius: .3rem;
+    transition: .5s;
+}
+.School-information #School-information-wrapper:hover img,.School-information #School-information-wrapper-2:hover img{
+    transform: scale(.93);
+}
+
+.School-information #School-information-wrapper:hover p,.School-information #School-information-wrapper-2:hover p{
+    color:rebeccapurple ;
+}
+#School-information-wrapper-2{
+    display: flex;
+    width: 50%;
+    padding:0  .5rem;
+}
+#School-information-wrapper-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: .5rem;
+}
+.School-information #School-information-wrapper-2 div p{
+    font-size: .8rem;
+    font-family: 'Hanuman';
+    margin: 0;
+}
+.School-information #School-information-wrapper-2 div h4{
+    font-size: .8rem;
+    font-family: 'Hanuman';
+    color: red;
+}
+.School-information #School-information-wrapper-2 img{
+    width:50%;
+    height:7rem;
+    object-fit:cover;
+    margin: .6rem 0;
+    border-radius: .3rem;
+    transition: .5s;
+}
+
+
+ /* .header-content */
+ .swiper-slide {
+      height: 100%;
+      border-radius:.5rem .5rem 0 0;
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: .5rem;
+      border: 1px solid rgba(0, 0, 0, 0.178);
+      cursor: pointer;
+    }
+    .Ttile-container{
+      padding:1rem;
+      height: auto;
+      text-align: center;
+      line-height:1.6rem;
+    }
+    .swiper-slide:hover img{
+        transform:scale(.98);
+    }
+    .swiper-slide:hover p{
+        color: #8F61A7;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height:20rem;
+      object-fit: cover;
+      border-radius:.5rem;
+      transition: .4s;
+    }
+    .swiper-slide h1{
+        font-size: .8rem;
+        font-weight:600;
+        color: rgb(239, 63, 63);
+        z-index: 100;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content:end;  
+        margin-bottom: .5rem;
+    }
+    .swiper-slide p{
+        margin: 0;
+        font-size: 1rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif,'moul';
+    }
+   /* end header content */
 /*End middle menuBar in main */
 
 /*start  Right menuBar-part-1  in Main-right-menubar */
 #Main-right-menubar{
-    width: 25%;
+    width: 20%;
 }
 .right-menu{
     width: 100%;
@@ -721,6 +852,94 @@ main{
     transform: scale(.90);
 }
 
+
+/* footer of website */
+#footer-container{
+    padding: 1rem 0;
+    background-color: white;
+}
+#main-box{
+    padding: 2rem 0;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgba(59, 56, 56, 0.1);
+    border-bottom: 2px solid rgba(174, 169, 169, 0.502);
+}
+.important-videos {
+    background-color: #198754;
+    height: 3rem;
+    display: flex; 
+    align-items: center;      /* vertical centering */
+    text-align: center;
+}
+.important-videos h2{
+    font-family: 'moul';
+    font-size: 1rem;
+    color: white;
+    margin-top: .6rem;
+    margin-left: 1rem;
+}
+#videoes-container{
+    display: flex;
+    gap: .5rem;
+}
+.video-swipper #img-1{
+    height: 5rem ;
+}
+#footer-inforamtion{
+    width: 100%;
+}
+
+/* videos-desgin */
+#footer-videos{
+    background-color: white;   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem .5rem;
+}
+.video-wrapper{
+    width: 24.5%;
+    position: relative;  
+}
+
+.video-wrapper #contentImg{
+    width: 100%;
+    border-radius: .2rem;
+}
+.video-wrapper #YoutubeLogo{
+    width: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+
+/* Location Desing Sections */
+  #cf{
+    padding: 2rem 0rem ;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 4em ;
+  }
+ .location-container{
+    width: 97%;
+ }
+  .location-container img{
+    width: 100%;
+  }
+ .ContactUs{
+    color: rgb(255, 215, 0);
+    font-family: 'Times New Roman', Times, serif;
+ }
+  .ContactUs h2{
+    font-size: 1.3rem;
+    text-decoration: underline 1.5px;
+  }
+  .ContactUs ul li a{
+    color: rgb(255, 215, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+
 @media (max-width: 600px) {
     #main-body {
         background-color: #006F87;
@@ -864,7 +1083,7 @@ main{
         height: 2rem;
         padding: 0 .5rem;
     }
-    /* .Graduate-container{
+    .Graduate-container{
         padding: .3rem 0;
     }
     .Graduate-container #Graduate-container a #Gratuate-title{
@@ -872,7 +1091,7 @@ main{
     }
     .Graduate-container #Graduate-container a #Gratuate-img img{
         height: 2rem;
-    } */
+    }
     /* End Gradiuate  */
 
     /* Public Speaking Khmer */
@@ -975,7 +1194,7 @@ main{
         height: 4rem;
       }
       .Contents a #Contents{
-        padding: .2rem;
+        padding:.2rem;
         height:100%;
       }
       .Contents a #Contents div{
@@ -987,7 +1206,7 @@ main{
         margin: 0;
       }
        .Contents a #Contents img{
-        font-size: .3rem;
+         height:auto;
        }
        .Contents a #Contents div h6{
         font-size: .3rem;
@@ -1043,22 +1262,10 @@ main{
             margin: 0;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-     #mainContainer main #Main-right-menubar{
-        display: noe;
-     }
-
+        .Sponsor-Sections{
+            border: inset 3px;
+            border-radius: 1.2rem;
+        }
 
 
 

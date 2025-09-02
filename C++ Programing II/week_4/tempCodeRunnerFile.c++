@@ -1,0 +1,13 @@
+cout<<"Input ID: ";
+    // cin>>s.id;
+    // cout<<"Input Name: ";
+    // cin>>s.name;
+    // cout<<"Input Gender: ";
+    // cin>>s.gender;
+    // cout<<"Input Date of birth: ";
+    // cin>>s.date_of_year;
+    // cout<<"Input Year: ";
+    // cin>>s.year;
+    // cout<<"Input Room: ";
+    // cin>>s.room;
+    // cout<<"Input Score_1: ";

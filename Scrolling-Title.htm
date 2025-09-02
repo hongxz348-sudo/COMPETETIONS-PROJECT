@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background-color:rgb(45, 45, 47);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      height: 100dvh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://www.beltei.edu.kh/uploaded/university/news/images/430/3ed4bc10-a.jpg" alt="">
+        <div class="Ttile-container">
+          <p>ដំណើរទស្សនកិច្ចសិក្សា របស់និស្សិតឆ្នាំទី១ ឆមាសទី២ នៃមហាវិទ្យាល័យ អាកាសចរណ៍ស៊ីវិល នៃសាកលវិទ្យាល័យ ប៊ែលធី អន្តរជាតិ សរុបចំនួន ១២០នាក់ ទៅកាន់អាកាសយានដ្ឋានអន្តរជាតិតេជោ</p>
+            <h1>19/Aug/2025</h1>
+        </div>
+       
+      </div>
+      <div class="swiper-slide">
+        <img src="2.jpg" alt="">
+        <h1>Flame HongXz</h1>
+      </div>
+      <div class="swiper-slide"><img src="3.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="4.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="5.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="6.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="3.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="4.jpg" alt=""><h1>Flame HongXz</h1></div>
+      <div class="swiper-slide"><img src="5.jpg" alt=""><h1>Flame HongXz</h1></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <svg viewBox="">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      atoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
